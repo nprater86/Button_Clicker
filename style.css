@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Comic Neue', cursive;
+}
+
+/* Header Start */ 
+header {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.nav {
+    width: 1000px;
+    height: inherit;
+    margin: 0 auto;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav h1 {
+    margin-left: 20px;
+}
+
+.nav button {
+margin-right: 20px;
+padding: 5px 10px;
+border: 2px solid black;
+background-color: blue;
+box-shadow: 2px 2px black;
+position: relative;
+font-weight: 800;
+font-family: 'Comic Neue', cursive;
+color: white;
+}
+
+.nav button:active {
+box-shadow: none;
+top: 2px;
+left: 2px;
+}
+
+.nav input{
+    width: 40%;
+}
+
+/* Header End */
+
+/* Main Start */
+
+.main {
+    position: relative;
+    top: 75px;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+}
+
+/* Main End */
+
+/* Left Column Start */
+
+.leftColumn {
+    flex: 2;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Left Column End */
+
+/* Right Column Start */
+
+.rightColumn {
+    flex: 1;
+
+}
+
+/* Right Column End */
+
+/* Definition Card Start */
+
+.definitionCard{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.cardLeft, .cardRight {
+    margin: 25px 0 25px 25px
+}
+
+.cardLeft {
+    text-align: center;
+}
+
+.cardLeft>*{
+    margin-bottom: 10px;
+}
+
+.cardLeft button{
+    margin-top: 20px;
+}
+
+.definitionCard button {
+    width: 100%;
+    padding: 5px 0;
+    border: 2px solid black;
+    background-color: palegoldenrod;
+    box-shadow: 2px 2px black;
+    position: relative;
+    font-weight: 800;
+    font-family: 'Comic Neue', cursive;
+}
+
+.definitionCard button:active {
+    box-shadow: none;
+    top: 2px;
+    left: 2px;
+}
+
+.cardRight {
+    width: 75%;
+}
+.definitionCard p {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+/* Definition Card End */
+
+/* Add Definition Start */
+
+.addDefinition {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.addDefinition>* {
+    margin: 25px;
+}
+
+.addDefinition h2 {
+    width: 60%;
+}
+
+.addDefinition button {
+    padding: 5px 0;
+    border: 2px solid black;
+    background-color: lime;
+    box-shadow: 2px 2px black;
+    position: relative;
+    font-weight: 800;
+    font-family: 'Comic Neue', cursive;
+}
+
+.addDefinition button:active {
+    box-shadow: none;
+    top: 2px;
+    left: 2px;
+}
