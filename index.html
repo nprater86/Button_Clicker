@@ -15,8 +15,8 @@
     <header>
         <div class="nav">
             <h1>Dojonary</h1>
-            <input type="search" name="Search" id="">
-            <button>Login</button>
+            <input type="search" name="Search" placeholder="Search">
+            <button onclick="loginLogout(this)">Login</button>
         </div>
     </header>
     <div class="main">
@@ -26,10 +26,10 @@
                     <h1>ninja</h1>
                     <h3><em>noun</em></h3>
                     <h4>Plural: <em>ninjas</em></h4>
-                    <button>13 likes</button>
+                    <button onclick="alert('Ninja was liked')">13 likes</button>
                 </div>
                 <div class="cardRight">
-                    <p class="definition">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>.</p>
+                    <p class="definition">A practitioner skilled in the <a href="https://en.wikipedia.org/wiki/Japanese" target="_blank">Japanese</a> art of <a href="https://en.wikipedia.org/wiki/Ninjutsu" target="_blank">ninjutsu</a>.</p>
                 </div>
             </div>
             <div class="definitionCard">
@@ -37,17 +37,17 @@
                     <h1>ninja</h1>
                     <h3><em>noun</em></h3>
                     <h4>Plural: <em>ninjas</em></h4>
-                    <button>37 likes</button>
+                    <button onclick="alert('Ninja was liked')">37 likes</button>
                 </div>
                 <div class="cardRight">
-                    <p class="definition">A <a href="#"">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus.</p>
+                    <p class="definition">A <a href="https://en.wikipedia.org/wiki/Programmer" target="_blank">programmer</a> who breaks down problems with <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&t=1s" target="_blank">zen</a>-like focus.</p>
                 </div>
             </div>
         </div>
         <div class="rightColumn">
             <div class="addDefinition">
                 <h2>Dojonary is defined by YOU</h2>
-                <button>Add Definition</button>
+                <button onclick="removeButton(this)">Add Definition</button>
             </div>
         </div>
     </div>

@@ -19,7 +19,7 @@ header {
     width: 1000px;
     height: inherit;
     margin: 0 auto;
-    background-color: gray;
+    background-color: darkgray;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,6 +49,9 @@ left: 2px;
 
 .nav input{
     width: 40%;
+    padding: 5px;
+    border-radius: 25px;
+    border: 2px solid gray;
 }
 
 /* Header End */
@@ -143,6 +146,7 @@ left: 2px;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
+    min-height: 185px;
 }
 
 .addDefinition>* {
@@ -168,3 +172,5 @@ left: 2px;
     top: 2px;
     left: 2px;
 }
+
+/* Add Definition End */
