@@ -7,6 +7,17 @@ body {
     font-family: 'Comic Neue', cursive;
 }
 
+.likeButton {
+        width: 100%;
+        padding: 5px 0;
+        border: 2px solid black;
+        background-color: palegoldenrod;
+        box-shadow: 2px 2px black;
+        position: relative;
+        font-weight: 800;
+        font-family: 'Comic Neue', cursive;
+}
+
 /* Header Start */ 
 header {
     height: 50px;
@@ -114,7 +125,7 @@ left: 2px;
     margin-top: 20px;
 }
 
-.definitionCard button {
+/* .definitionCard button {
     width: 100%;
     padding: 5px 0;
     border: 2px solid black;
@@ -123,7 +134,7 @@ left: 2px;
     position: relative;
     font-weight: 800;
     font-family: 'Comic Neue', cursive;
-}
+} */
 
 .definitionCard button:active {
     box-shadow: none;
